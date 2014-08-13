@@ -1,8 +1,8 @@
 {
-    "name": "justinrainbow/json-schema",
+    "name": "yutin1987/json-schema",
     "description": "A library to validate a json schema.",
     "keywords": ["json", "schema"],
-    "homepage": "https://github.com/justinrainbow/json-schema",
+    "homepage": "https://github.com/yutin1987/json-schema",
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
@@ -21,6 +21,10 @@
         {
             "name": "Robert Schönthal",
             "email": "seroscho@googlemail.com"
+        },
+        {
+            "name": "YuTin",
+            "email": "yuting1987@gmail.com"
         }
     ],
     "repositories": [{
