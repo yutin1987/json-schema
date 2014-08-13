@@ -78,7 +78,7 @@ class Type extends Constraint
         }
 
         if ('integer' === $type) {
-            return is_int($value);
+            return is_int($value) || (is_string($value) && preg_match("/^[0-9]*$/"));
         }
 
         if ('number' === $type) {
