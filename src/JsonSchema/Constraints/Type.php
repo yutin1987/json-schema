@@ -86,7 +86,7 @@ class Type extends Constraint
         }
 
         if ('boolean' === $type) {
-            return is_bool($value);
+            return is_bool($value) || (is_int($value) && in_array($value, 0, 1)) || (is_string($value) && in_array($value, '0', '1'));
         }
 
         if ('object' === $type) {
